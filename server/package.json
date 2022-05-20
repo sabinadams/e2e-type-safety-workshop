@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "prisma": {
-    "seed": "ts-node prisma/seed.ts"
-  },
   "scripts": {
     "dev": "ts-node-dev src/index.ts"
   },
@@ -14,11 +11,14 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^17.0.35",
-    "prisma": "^3.14.0",
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.6.4"
   },
   "dependencies": {
-    "@prisma/client": "^3.14.0"
+    "@pothos/core": "^3.11.0",
+    "@pothos/plugin-prisma": "^3.8.0",
+    "@prisma/client": "^3.14.0",
+    "apollo-server": "^3.7.0",
+    "graphql-scalars": "^1.17.0"
   }
 }
