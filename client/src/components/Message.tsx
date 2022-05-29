@@ -12,12 +12,6 @@ export default function Message({ note, index }: Props) {
 
         <p className="text-sm text-gray-200 font-bold">
             {note.message}
-            <br />
-            <p className="text-gray-800 text-right text-xs font-semibold mt-1">
-                {new Date(note.createdAt).getMonth()}/
-                {new Date(note.createdAt).getDate()}/
-                {new Date(note.createdAt).getFullYear()}
-            </p>
         </p>
     </div>
 }
