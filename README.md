@@ -9,7 +9,7 @@ This repository contains the starter project for the End-To-End Type Safety with
 You can clone this repository with the following command:
 
 ```shell
-git clone https://github.com/sabinadams/tscongress-e2e-type-safety.git
+git clone https://github.com/sabinadams/e2e-type-safety-workshop.git
 ```
 
 ### 2. Install dependencies
