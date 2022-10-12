@@ -1,23 +1,5 @@
 import UserDisplay from './components/UserDisplay'
 import { User } from './types'
-<<<<<<< HEAD
-import { gql, useQuery } from '@apollo/client'
-
-const UserQuery = gql`
-  query GetUsers {
-    users {
-      id
-      name
-      notes {
-        message
-      }
-    }
-  }
-`
-
-function App() {
-  const { data } = useQuery<{ users: User[] }>(UserQuery);
-=======
 import { useQuery } from 'urql'
 import { GetUsers } from './graphql/users.query'
 
@@ -28,7 +10,6 @@ function App() {
     query: GetUsers
   })
   const { data } = results
->>>>>>> updates
 
   return (
     <div className="bg-zinc-800 flex-col h-screen w-full flex items-center p-4 gap-y-12 overflow-scroll">

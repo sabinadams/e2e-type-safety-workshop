@@ -8,19 +8,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "@apollo/client": "^3.6.5",
-    "graphql": "^16.5.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-icons": "^4.3.1"
-=======
     "graphql": "^16.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "urql": "^3.0.3"
->>>>>>> updates
   },
   "devDependencies": {
     "@types/react": "^18.0.21",
