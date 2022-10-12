@@ -7,14 +7,14 @@ async function main() {
   await prisma.note.deleteMany({});
   await prisma.user.create({
     data: {
-      name: "Billy",
+      name: "Adam",
       notes: {
         create: [
           {
-            message: "A Note for Billy",
+            message: "A Note for Adam",
           },
           {
-            message: "Another note for Billy",
+            message: "Another note for Adam",
           },
         ],
       },
@@ -37,14 +37,14 @@ async function main() {
   });
   await prisma.user.create({
     data: {
-      name: "Joe",
+      name: "Ryan",
       notes: {
         create: [
           {
-            message: "A Note for Joe",
+            message: "A Note for Ryan",
           },
           {
-            message: "Another note for Joe",
+            message: "Another note for Ryan",
           },
         ],
       },
