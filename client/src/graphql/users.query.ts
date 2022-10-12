@@ -7,7 +7,6 @@ export const GetUsers = gql`
       name
       notes {
         message
-        createdAt
       }
     }
   }
