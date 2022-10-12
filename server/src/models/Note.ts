@@ -12,8 +12,4 @@ builder.prismaObject("Note", {
       type: "Date",
     }),
   }),
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> updates
