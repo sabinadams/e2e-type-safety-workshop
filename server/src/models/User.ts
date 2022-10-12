@@ -16,4 +16,8 @@ builder.queryField("users", (t) =>
       return ctx.prisma.user.findMany({ ...query });
     },
   })
+<<<<<<< HEAD
 );
+=======
+);
+>>>>>>> updates

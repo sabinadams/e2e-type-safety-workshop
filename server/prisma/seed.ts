@@ -7,6 +7,7 @@ async function main() {
   await prisma.note.deleteMany({});
   await prisma.user.create({
     data: {
+<<<<<<< HEAD
       name: "Billy",
       notes: {
         create: [
@@ -15,6 +16,16 @@ async function main() {
           },
           {
             message: "Another note for Billy",
+=======
+      name: "Adam",
+      notes: {
+        create: [
+          {
+            message: "A Note for Adam",
+          },
+          {
+            message: "Another note for Adam",
+>>>>>>> updates
           },
         ],
       },
@@ -37,6 +48,7 @@ async function main() {
   });
   await prisma.user.create({
     data: {
+<<<<<<< HEAD
       name: "Joe",
       notes: {
         create: [
@@ -45,6 +57,16 @@ async function main() {
           },
           {
             message: "Another note for Joe",
+=======
+      name: "Ryan",
+      notes: {
+        create: [
+          {
+            message: "A Note for Ryan",
+          },
+          {
+            message: "Another note for Ryan",
+>>>>>>> updates
           },
         ],
       },
@@ -54,4 +76,8 @@ async function main() {
 
 main().then(() => {
   console.log("Data seeded...");
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> updates
